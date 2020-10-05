@@ -17,7 +17,6 @@ class VigenereCipheringMachine {
       }
     }
     let res = '';
-    let space = false;
     let n = 0;
     for (let i = 0; i < text.length; i++) {
       if (text[i] != ' ') {
@@ -29,7 +28,6 @@ class VigenereCipheringMachine {
         }
       }
       else {
-        space = true;
         n++;
         i++;
         if (text[i + 1] != ' ') {
@@ -64,7 +62,6 @@ class VigenereCipheringMachine {
       }
     }
     let res = '';
-    let space = false;
     let n = 0;
     for (let i = 0; i < text.length; i++) {
       if (text[i] != ' ') {
@@ -76,7 +73,6 @@ class VigenereCipheringMachine {
         }
       }
       else {
-        space = true;
         n++;
         i++;
         if (text[i + 1] != ' ') {
